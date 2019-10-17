@@ -8,5 +8,6 @@
         <Entry Text="" Placeholder="Android Message" x:Name="EntryMessage"/>
         <local:OTPAutoFillControl Keyboard="Numeric" Text="" Placeholder="iOS OTP Message" x:Name="OTPEntryMessage"/>
         <Button Text="Send" Clicked="Button_Clicked"/>
+        <!--Placeholder="XXXXXX"-->
     </StackLayout>
 </ContentPage>

@@ -1,8 +1,11 @@
 ﻿using System;
 using MessageUI;
 using SendAndReceiveSMS.Interfaces;
+using SendAndReceiveSMS.iOS.Receivers;
 using UIKit;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(SendSms))]
 namespace SendAndReceiveSMS.iOS.Receivers
 {
     public class SendSms : ISendSms
